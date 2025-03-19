@@ -24,6 +24,7 @@ public class numberGuessingGame{
             System.out.print("Total number of attempts are:" +attempts);
           }
         }while(guess!=number);
+        sc.close();
 
     }
 }
